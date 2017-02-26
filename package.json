@@ -1,0 +1,29 @@
+{
+  "name": "http-loggly",
+  "description": "Log http requests and responses to loggly",
+  "author": "John Otander",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "start": "micro example.js"
+  },
+  "repository": "johnotander/http-loggly",
+  "keywords": [
+    "log",
+    "loggly"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "end-of-stream": "^1.1.0",
+    "is-blank": "^2.1.0",
+    "winston": "^2.3.1",
+    "winston-loggly-bulk": "^1.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "micro": "^7.0.6"
+  }
+}
